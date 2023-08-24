@@ -1,0 +1,295 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url(https://img.freepik.com/free-photo/white-paper-texture-background_23-2148171213.jpg?w=2000);
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #0e0e0e;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+nav li a:hover {
+    background-color: #000000;
+    background-image: url('https://images.unsplash.com/photo-1545486332-9e0999c535b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBwYXBlciUyMHRleHR1cmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #666666;
+    background-image: url('https://images.unsplash.com/photo-1545486332-9e0999c535b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBwYXBlciUyMHRleHR1cmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    transform: scale(1, 1);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.profile-picture img {
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition-property: transform;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition: background-color 0.3s;
+}
+
+.profile-picture img :hover {
+    transform: scale(1.1, 1.1);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.description {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    transition-property: transform;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition: background-color 0.3s;
+}
+
+.collection :hover {
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+    transform: scale(1.01, 1.01);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: #ffffffb2;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.item img :hover {
+    width: 300px;
+    height: 300px;
+}
+
+.collection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.item {
+    position: relative;
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.itema {
+    position: relative;
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.itema img {
+    max-width: 100%;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+.item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.item p {
+    margin-bottom: 10px;
+}
+
+.price {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #000;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.price :hover {
+    background-color: #000000;
+    transition: background-color 0.3s;
+    transform: scale(1.01, 1.01);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.slideshow {
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+
+/* Add animation if desired */
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.main-logo {
+    font-size: 24px;
+    padding: 20px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition-property: transform;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition: background-color 0.3s;
+}
+
+.social-icon :hover {
+    transform: scale(1.01, 1.01);
+    transition: transform 0.5s;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+    transform: scale(1.01, 1.01);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.social-icon img {
+    max-width: 100%;
+    border-radius: 50%;
+    transition-property: transform;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition: background-color 0.3s;
+}
+
+.social-icon img :hover {
+    transform: scale(1.01, 1.01);
+    transition: transform 0.5s;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+    transform: scale(1.01, 1.01);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+main {
+    padding: 20px;
+}
+
+.centered-content a {
+    padding: 25px;
+}
